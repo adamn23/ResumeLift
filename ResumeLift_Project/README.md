@@ -154,9 +154,3 @@ Dashboard:
   ]
 }
 ```
-
-## Notes
-
-- The OpenAI feedback step falls back to safe template feedback if `OPENAI_API_KEY` is empty.
-- Resume matching uses embeddings plus a lightweight keyword comparison, which keeps the project realistic and easy to explain in a portfolio.
-- For a production version, you would add file storage, background jobs, rate limiting, and stronger validation.
